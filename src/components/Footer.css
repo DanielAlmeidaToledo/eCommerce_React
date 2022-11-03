@@ -1,0 +1,80 @@
+.foot{
+    bottom: 0;
+    background-image: url(/public/bg-teams.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.foot img{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 10px 10px 80px 10px white;
+}
+
+.foot img:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 80px 15px white;
+}
+
+.foot-bottom{
+    width: 100%;
+    display: flex;
+}
+
+.left, .right{
+    width: 30%;
+    height: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.left span{
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.divRight{
+    display: flex;
+    width: 70%;
+}
+
+.right a{
+    color: black;
+}
+
+.right div{
+    margin: 1.5rem auto 1rem;
+}
+
+.icon{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.icon:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 80px 5px rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.subFooter{
+    padding: 1rem 0 0 0;
+    text-align: center;
+    font-style: italic;
+}
+
+/* === RESPONSIVE === */
+
+@media screen and (max-width: 760px){
+    .left, .right{
+        width: 50%;
+        height: 100%;
+    }
+    .divRight{
+        display: block;
+        width: 70%;
+    }
+}

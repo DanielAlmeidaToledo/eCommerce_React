@@ -1,0 +1,183 @@
+/* === NAV === */
+
+.navbar{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 180px;
+    cursor: pointer
+}
+
+.nav-div{
+    display: flex;
+}
+
+.nav-info{
+    border-radius: 10px;
+}
+
+.nav-info input{
+    background-color: rgb(140, 82, 255, 0.2);
+    font-size: 1em;
+    height: 45px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.btnSearch{
+    margin-left: -2rem;
+    cursor: pointer;
+    color: #824CD4;
+    background: none;
+    border: none;
+    
+}
+
+.login, .shopCart{
+    cursor: pointer;
+    margin-left: 3rem;
+    align-items: center;
+}
+
+.login span{
+    background-color: #824CD4;
+    font-size: .7em;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.infoUser{
+    text-align: center;
+}
+
+/* === MODAL === */
+
+.modal{
+    position: relative;
+    width: 400px;
+    height: 100%;
+    margin: 0 0 auto auto;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.close{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.closeX{
+    position: absolute;
+    cursor: pointer;
+    padding: 0 0.6rem;
+    margin: 0.3rem 0.3rem 0 0;
+    border-radius: 0.2rem;
+    background: red;
+    color: white;
+}
+
+.titleCart{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-div{
+    width: 95%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.modal-div img{
+    width: 100%;
+}
+
+.tImg img{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.tName{
+    width: 200px;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+.tPrice{
+    font-weight: bold;
+    width: 80px;
+    color: #824CD4;
+}
+
+.tBtn{
+    cursor: pointer;
+    height: 20px;
+}
+
+.tBtn:hover{
+    color: #824CD4;
+}
+
+.vazio{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.hr-cart{
+    color: black;
+    width: 420%;
+}
+
+.total{
+    margin: 1rem 0;
+}
+
+.finalizar{
+    margin: 10px;
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem;
+    background-color: #824CD4;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.finalizar:hover{
+    filter: saturate(1.3);
+}
+
+/* === RESPONSIVE === */
+
+@media screen and (max-width: 760px){
+    .nav-info input, .nav-info .btnSearch{
+        display: none;
+    }
+}

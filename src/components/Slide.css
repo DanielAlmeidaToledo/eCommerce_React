@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url('/bg-teams.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: auto 0;
+}
+
+.carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.item{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.image img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.image img:hover{
+    width: 33%;
+    height: 33%;
+}
+
+/* === RESPONSIVE === */
+
+@media screen and (max-width: 760px){
+    .carousel{
+        overflow-x: hidden;
+    }
+
+    .image{
+        width: 8rem;
+    }
+}
+
