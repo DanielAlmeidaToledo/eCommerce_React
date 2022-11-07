@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react'
 import './Slide.css'
 
-function Slide(){
+function Slide({ teams }){
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://api-toledosports.herokuapp.com/teams')
-        .then((response) => response.json())
-        .then(setData)
+        setData(teams)
     }, [])
 
     if(!data || !data.length) return null;
