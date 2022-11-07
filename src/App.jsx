@@ -27,8 +27,8 @@ const teams = [
 
 const shirt = [
   {id: 1, name: "Camiseta Brasil Jogador 22/23", shirt: "https://cdn.shopify.com/s/files/1/0602/8132/3746/products/Designsemnome_14_752770e5-28a8-4350-a8f9-bb724fb0032e_600x.png?v=16601", price: 199.90},
-  {id: 2, name: "Camisa Brasil Torcedor 22/23", shirt: "https://http2.mlstatic.com/D_NQ_NP_982312-MLB52166900638_102022-O.webp", price: 199.90 },
-  {id: 3, name: "Camisa Barcelona Torcedor 22/23", shirt: "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/865/527/products/photo49587329141373446511-d39d77fe05f294a93a16542644758359-640-0.jpg", price: 249.90 },
+  {id: 2, name: "Camisa Brasil Torcedor 22/23", shirt: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/865/527/products/camisa-reserva-da-selecao-brasileira-2022-nike-away-kit-1-removebg-preview1-69d7bf68dd1247972816611916238725-640-01-5aa28135fde8268ad516627723460017-640-0.png", price: 199.90 },
+  {id: 3, name: "Camisa Barcelona Torcedor 22/23", shirt: "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/774/384/products/camisa-barcelona-home-2223-torcedor-nike-masculina-azul-marinho-azul-royal-e-vermelho-2022-homem-casa-2022-2023-principal-novo-uniforme-011-c6ada03e711e69a58916548298248606-640-0.png", price: 249.90 },
   {id: 4, name: "Camisa Paris Saint German 22/23", shirt: "https://images.mantosdofutebol.com.br/wp-content/uploads/2022/07/Camisa-reserva-do-PSG-2022-2023-e-lancada-pela-Jordan-6.jpg", price: 179.90 },
   {id: 5, name: "Camisa Manchester City 21/22", shirt: "https://cdn.shopify.com/s/files/1/0618/8361/3346/products/1_1_0df47bb6-8e16-4c72-ba7e-0798f15a43ed_720x720_crop_center.png?v=1660843552", price: 149.90 },
   {id: 6, name: "Camisa Manchester United 20/21", shirt: "https://cdn.awsli.com.br/600x700/570/570965/produto/23289360/1bd92c8846.jpg", price: 129.90 },
